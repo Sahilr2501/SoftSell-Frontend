@@ -1,5 +1,5 @@
 [build]
-  command = "npm install -g typescript && npm install --include=dev --verbose && npm run build"
+  command = "npm install --omit=optional --no-audit --no-fund && npm run build"
   publish = "dist"
 
 [build.environment]
@@ -7,8 +7,8 @@
   NPM_VERSION = "10.9.2"
   NODE_ENV = "production"
   CI = "false"
-  NPM_CONFIG_LOGLEVEL = "verbose"
-  NPM_CONFIG_PREFER_OFFLINE = "true"
+  NPM_CONFIG_LOGLEVEL = "error"
+  NPM_CONFIG_OMIT = "optional"
   NPM_CONFIG_AUDIT = "false"
   NPM_CONFIG_FUND = "false"
   NPM_CONFIG_UPDATE_NOTIFIER = "false"
