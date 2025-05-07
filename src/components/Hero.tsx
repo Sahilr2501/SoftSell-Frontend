@@ -1,6 +1,5 @@
-import React from 'react'
-import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 const Hero = () => {
     return (

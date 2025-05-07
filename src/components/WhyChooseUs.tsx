@@ -1,5 +1,9 @@
-import React from 'react'
-import { ShieldCheckIcon, BanknotesIcon, ClockIcon, UserGroupIcon } from '@heroicons/react/24/outline'
+import {
+    ShieldCheckIcon,
+    ClockIcon,
+    CurrencyDollarIcon,
+    UserGroupIcon
+} from '@heroicons/react/24/outline'
 
 const features = [
     {
@@ -10,7 +14,7 @@ const features = [
     {
         name: 'Best Market Value',
         description: 'Get the highest market value for your licenses with our competitive pricing model.',
-        icon: BanknotesIcon,
+        icon: CurrencyDollarIcon,
     },
     {
         name: 'Fast Processing',

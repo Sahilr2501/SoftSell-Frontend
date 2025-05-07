@@ -1,5 +1,3 @@
-import React from 'react'
-
 const testimonials = [
     {
         content: "SoftSell made it incredibly easy to monetize our unused enterprise licenses. The valuation was fair and the payment was processed quickly. Highly recommended!",

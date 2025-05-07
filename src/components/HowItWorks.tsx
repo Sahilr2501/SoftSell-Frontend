@@ -1,5 +1,8 @@
-import React from 'react'
-import { ClipboardDocumentIcon, CurrencyDollarIcon, DocumentCheckIcon } from '@heroicons/react/24/outline'
+import {
+    ClipboardDocumentIcon,
+    DocumentCheckIcon,
+    CurrencyDollarIcon
+} from '@heroicons/react/24/outline'
 
 const steps = [
     {
